@@ -32,6 +32,7 @@ displays a different side of my personality).
    npm install
    npm run format
    \`\`\`
+6. View the live deployed version at: https://anthonyminichillo.github.io/personal-homepage/
 
 ## Use of GenAI Tools
 
