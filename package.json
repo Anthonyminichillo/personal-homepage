@@ -1,0 +1,16 @@
+{
+  "name": "personal-homepage",
+  "version": "1.0.0",
+  "description": "A personal 'About Me' homepage built with vanilla HTML5, CSS3, and ES6+ JavaScript.",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "author": "Anthony Minichillo",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "prettier": "^3.9.9"
+  }
+}

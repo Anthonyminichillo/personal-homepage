@@ -1,0 +1,64 @@
+!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Anthony Minichillo" />
+    <meta
+      name="description"
+      content="Personal homepage of Anthony Minichillo"
+    />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Anthony Minichillo| Home</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Anthony Minichillo</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="interests.html">Interests</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <img
+          src="images/profile.jpg"
+          alt="Photo of Your Name"
+          class="profile-photo"
+        />
+        <h1>All About Anthony Minichillo</h1>
+        <p class="tagline">
+          School &middot; Work &middot; Travel &middot; Hobbies
+        </p>
+      </section>
+
+      <section class="quick-facts">
+        <h2>A Few Quick Facts</h2>
+        <ul class="facts-list">
+          <li>📍 Based in Boston, MA</li>
+          <li>🎓 MSCS student at Northeastern</li>
+          <li>🏃 Love to exercise</li>
+          <li>✈️ Always have travel on my mind</li>
+        </ul>
+      </section>
+
+      <section class="mood-picker">
+        <h2>Which "Me" Are You Meeting Today?</h2>
+        <button id="mood-btn" class="btn" type="button">
+          Click to find out
+        </button>
+        <p id="mood-output" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Anthony Minichillo. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
