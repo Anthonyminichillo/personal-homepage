@@ -1,9 +1,9 @@
 const moods = [
-  "🏃 Runner Anthony — just got back from a 5-miler",
-  "✈️ Travel Anthony — planning the next trip already",
-  "💻 CS Anthony — deep in a debugging session",
-  "🏙️ Boston Anthony — exploring a new neighborhood",
-  "🏔️ Outdoors Anthony — needs to be outside today",
+  "🏃 Run a Marathon",
+  "✈️ Backpack Africa for a 55 day tour",
+  "💻 Design a Travel App",
+  "🏙️ Move to New York City",
+  "🏔️ Get Casted on Survivor",
 ];
 
 function getRandomMood(currentIndex) {

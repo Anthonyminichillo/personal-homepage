@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,8 +9,14 @@
       content="Personal homepage of Anthony Minichillo"
     />
     <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Anthony Minichillo| Home</title>
+    <title>Anthony Minichillo | Home</title>
   </head>
   <body>
     <header class="site-header">
@@ -23,35 +29,55 @@
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="hero">
         <img
           src="images/profile.jpg"
-          alt="Photo of Your Name"
+          alt="Photo of Anthony Minichillo"
           class="profile-photo"
         />
-        <h1>All About Anthony Minichillo</h1>
+        <h1>Anthony Minichillo</h1>
         <p class="tagline">
-          School &middot; Work &middot; Travel &middot; Hobbies
+          <a href="work.html">Work</a>
+          <span class="dot">&middot;</span>
+          <a href="travel.html">Travel</a>
         </p>
       </section>
 
-      <section class="quick-facts">
-        <h2>A Few Quick Facts</h2>
-        <ul class="facts-list">
-          <li>📍 Based in Boston, MA</li>
-          <li>🎓 MSCS student at Northeastern</li>
-          <li>🏃 Love to exercise</li>
-          <li>✈️ Always have travel on my mind</li>
-        </ul>
+      <section class="description">
+        <h2>Overview</h2>
+        <p>
+          My name is Anthony, I am 24 and am living in Boston. I grew up in
+          Peabody and love the New England area. I did my undergrad at North
+          Shore Community College and Southern New Hampshire University. That
+          got me an associate's degree in liberal arts and a bachelor's degree
+          in business administration. I am in Align at Northeastern, so after a
+          challenging first year I feel much more comfortable.
+        </p>
       </section>
 
-      <section class="mood-picker">
-        <h2>Which "Me" Are You Meeting Today?</h2>
+      <section class="goals">
+        <h2>Dream Goals</h2>
         <button id="mood-btn" class="btn" type="button">
           Click to find out
         </button>
         <p id="mood-output" aria-live="polite"></p>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a href="mailto:minichillo.a@northeastern.edu"
+            >minichillo.a@northeastern.edu</a
+          >
+          <a
+            href="https://github.com/Anthonyminichillo"
+            target="_blank"
+            rel="noopener noreferrer"
+            >github.com/Anthonyminichillo</a
+          >
+        </div>
       </section>
     </main>
 
